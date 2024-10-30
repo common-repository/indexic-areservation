@@ -1,0 +1,289 @@
+td.ares-row-remove{
+	width: 20px;
+	text-align: center;
+}
+
+	td.ares-row-remove a{
+		text-decoration: none;
+		color: #da0000;
+		line-height: 1;
+		display: inline-block;
+		padding: 5px;
+		outline: none;
+		text-align: center;
+	}
+
+	td.ares-row-remove a:hover{
+		color: #000;
+	}
+
+		td.ares-row-remove a span{
+			font-size: 24px;
+			text-align: center;
+			width: auto;
+			height: auto;
+		}
+
+#ares-scripts-container{
+	max-width: 600px;
+}
+
+#ares-scripts-container table,
+#ares-buttons-container table{
+	width: 100%;
+	border: none;
+	margin: 1em 0;
+	border-collapse: collapse;
+}
+
+	#ares-scripts-container table td,
+	#ares-buttons-container table td{
+		padding: 0.5em 1em;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	#ares-scripts-container table td.ares-row-id{
+		width: 20px;
+	}
+
+	#ares-scripts-container table.ares-scripts td.ares-row-url input{
+		width: 100%;
+		padding: 0.5em;
+	}
+	
+#ares-buttons-container h4{
+	font-size: 18px;
+	margin: 0.5em 0;
+}
+	
+#ares-buttons-container table{
+	width: auto;
+}
+			
+#ares-buttons-container tr.ares-button-row > td{
+	border: 1px solid #c3c3c3;
+	padding: 10px;
+	background: #fbfbfb;
+}
+			
+#ares-buttons-container td.ares-button-row-id{
+	font-size: 26px;
+	width: 10px;
+}
+			
+#ares-buttons-container td.ares-buttons-data-table{
+	
+}
+			
+	#ares-buttons-container .ares-buttons-data-table th{
+		text-align: center;
+		font-weight: 600;
+		padding: 1.5em 1em 0;
+		vertical-align: bottom;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table th.ares-text-color{
+		width: 210px;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td input[type="text"]{
+		width: 100%;
+		max-width: 54px;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td.ares-td-color{
+		/* width: 210px; */
+		text-align: center;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td.ares-td-color.ares-td-has-color{
+		text-align: left;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table div.button-input-field.input-px{
+		position: relative;
+		display: inline-block;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table div.button-input-field.input-px::after{
+		content: "px";
+		position: absolute;
+		right: 8px;
+		top: 0;
+		line-height: 27px;
+		vertical-align: middle;
+		z-index: 1;
+	}
+			
+		#ares-buttons-container .ares-buttons-data-table div.button-input-field.input-px input[type="text"]{
+			padding-right: 25px;
+		}
+			
+	#ares-buttons-container .ares-buttons-data-table td .button-field-color{
+		display: inline-block;
+		width: 27px;
+		height: 27px;
+		border-radius: 3px;
+		cursor: pointer;
+		margin-top: 5px;
+		border: 1px solid #d4d4d4;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td .button-field-color-value{
+		display: none;
+		margin: 5px 0 0 8px;
+		line-height: 27px;
+		vertical-align: top;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td .dashicons{
+		display: none;
+		padding: 5px;
+		margin: 5px 0 0 0;
+		line-height: 17px;
+		cursor: pointer;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td .dashicons:hover{
+		opacity: 0.6;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td.ares-td-color.ares-td-has-color .button-field-color-value,
+	#ares-buttons-container .ares-buttons-data-table td.ares-td-color.ares-td-has-color .dashicons{
+		display: inline-block;
+	}
+			
+	#ares-buttons-container .ares-buttons-data-table td.ares-text-color{
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-text-size{
+		/* width: 120px;
+		text-align: ce; */
+		/* white-space: nowrap; */
+		/* max-width: 50px; */
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-text-weight{
+		
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-bg-color{
+		
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-horizontal-padding{
+		
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-vertical-padding{
+		
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-border-color{
+		
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-border-size{
+		
+	}
+				
+	#ares-buttons-container .ares-buttons-data-table td.ares-border-radius{
+		
+	}
+			
+#ares-buttons-container td.ares-button-row-remove{
+	width: 20px;
+}
+	
+#ares-buttons-container td.ares-td-title{
+	vertical-align: top;
+}
+	
+#ares-buttons-container td input[type="text"].ares-button-title,
+#ares-buttons-container td input[type="text"].ares-button-url{
+	width: 100%;
+	max-width: 100%;
+}
+
+.ares-button-preview{
+	display: inline-block;
+}
+
+.ares-fields-group{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-ms-flex-wrap: none;
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	
+	-webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+	align-items: center;
+	
+	max-width: 850px;
+	margin: 15px 0;
+}
+
+	.ares-fields-group .ares-fields-group-label,
+	.ares-fields-group .ares-fields-group-data{
+		/* -webkit-box-flex: 0;
+		-moz-box-flex: 0;
+		-webkit-flex-grow: 0;
+		-ms-flex: 0;
+		flex-grow: 0;
+		-webkit-flex-shrink: 0;
+		-moz-flex-shrink: 0;
+		-ms-flex: 0;
+		flex-shrink: 0; */
+	}
+
+	.ares-fields-group .ares-fields-group-label{
+		width: 240px;
+		padding: 0.5em 0.5em 0.5em 0;
+	}
+
+	.ares-fields-group .ares-fields-group-data{
+		padding: 0.5em;
+	}
+
+		.ares-fields-group .ares-fields-group-data input[type="text"]{
+			min-width: 200px;
+		}
+		
+.ares-button-url,
+#ares-add-new-button{
+	display: none;
+}
+
+img.indexic-logo{
+	max-width: 120px;
+    height: auto;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+@media ( max-width: 800px ){
+	
+	img.indexic-logo{
+		max-width: 80px;
+	}
+	
+}
+
+@media ( max-width: 600px ){
+	
+	img.indexic-logo{
+		top: 60px;
+	}
+	
+}
